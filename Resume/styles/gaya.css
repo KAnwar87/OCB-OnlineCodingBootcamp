@@ -1,0 +1,61 @@
+body {
+    background-color:darkolivegreen
+}
+
+nav {
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.GambarKA {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover ;
+}
+
+.MainInfo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.gambar {
+    flex-basis: auto;
+    align-items: right;
+    padding-right: 1%;
+}
+
+.nama {
+    flex-basis: auto;
+    font-size: 24px;
+    align-items: left;
+    padding-left: 1%;
+}
+
+.contact_info {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:cornsilk;
+    padding-top: 10px;
+    text-align: center;
+}
+
+h1.nama_ka {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: cornsilk;
+    text-align: right;
+}
+
+a {
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+    
+a:visited {
+    color: white;
+}
+
+a:hover {
+    color:darkorange;
+}
+
+a:active {
+    color:dodgerblue;
+}
