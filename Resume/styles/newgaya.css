@@ -2,53 +2,11 @@ body {
     background-color:darkolivegreen
 }
 
+
+/* Nav and Link Hover */
+
 nav {
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-}
-
-.GambarKA {
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
-    object-fit: cover ;
-}
-
-.MainInfo {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.gambar {
-    flex-basis: auto;
-    align-items: right;
-    padding-right: 1%;
-}
-
-.nama {
-    flex-basis: auto;
-    align-items: left;
-    padding-left: 1%;
-    line-height: 2em;
-}
-
-#nama_ka {
-    color: azure;
-    font-size: 48px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-
-
-.contact_info {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color:cornsilk;
-    padding-top: 10px;
-    text-align: center;
-}
-
-h1.nama_ka {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: cornsilk;
-    text-align: right;
 }
 
 a:any-link {
@@ -68,12 +26,49 @@ a:hover {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+
+/* Flex Container untuk Gambar dan Nama */
+
+.container {
+    display:flex;
+}
+.box {
+    flex-grow: 1;
+}
+#box_gambar {
+    text-align: right;
+    padding-right: 1%;
+}
+
+#box_nama {
+    text-align: left;
+    padding-left: 1%;
+}
+
+
+
+
+
+.GambarKA {
+    width: 200px;
+    height: 200px;
+    border-radius: 40%;
+    object-fit: cover ;
+}
+
+#nama_ka {
+    color: azure;
+    font-size: 48px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 0.75em;
+}
+
 .about_me {
     color: cornsilk;
+    font-size:larger;
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    margin-top: 3px;
-    margin-bottom: 3px;
+    margin: 8px 20px;
 }
 
 .contact_me p {
@@ -88,13 +83,14 @@ a:hover {
     color:azure;
     text-align: right;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    width: 45%;
+    width: 49%;
     padding-right: 1%;
 }
 
 .contact_info {
+    color:cornsilk;
     text-align: left;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    width: 45%;
+    width: 49%;
     line-height: 1em;
 }
