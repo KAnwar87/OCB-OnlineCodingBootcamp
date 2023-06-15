@@ -1,0 +1,100 @@
+body {
+    background-color:darkolivegreen
+}
+
+nav {
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.GambarKA {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover ;
+}
+
+.MainInfo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.gambar {
+    flex-basis: auto;
+    align-items: right;
+    padding-right: 1%;
+}
+
+.nama {
+    flex-basis: auto;
+    align-items: left;
+    padding-left: 1%;
+    line-height: 2em;
+}
+
+#nama_ka {
+    color: azure;
+    font-size: 48px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+.contact_info {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:cornsilk;
+    padding-top: 10px;
+    text-align: center;
+}
+
+h1.nama_ka {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: cornsilk;
+    text-align: right;
+}
+
+a:any-link {
+    color: white;
+    font-weight:500;
+    text-decoration: none;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+a:hover {
+    color: black;
+    font-weight:bold;
+    background-color: cornsilk;
+    border: 3px solid cornsilk;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.about_me {
+    color: cornsilk;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+
+.contact_me p {
+    display: inline-block;
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 10px;
+    margin-bottom: 3px;
+}
+
+.contact_type {
+    color:azure;
+    text-align: right;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 45%;
+    padding-right: 1%;
+}
+
+.contact_info {
+    text-align: left;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 45%;
+    line-height: 1em;
+}

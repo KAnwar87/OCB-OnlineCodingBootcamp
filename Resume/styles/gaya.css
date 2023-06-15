@@ -2,53 +2,11 @@ body {
     background-color:darkolivegreen
 }
 
+
+/* Nav and Link Hover */
+
 nav {
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-}
-
-.GambarKA {
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
-    object-fit: cover ;
-}
-
-.MainInfo {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.gambar {
-    flex-basis: auto;
-    align-items: right;
-    padding-right: 1%;
-}
-
-.nama {
-    flex-basis: auto;
-    align-items: left;
-    padding-left: 1%;
-    line-height: 2em;
-}
-
-#nama_ka {
-    color: azure;
-    font-size: 48px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-
-
-.contact_info {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color:cornsilk;
-    padding-top: 10px;
-    text-align: center;
-}
-
-h1.nama_ka {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: cornsilk;
-    text-align: right;
 }
 
 a:any-link {
@@ -68,12 +26,78 @@ a:hover {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+
+/* Flex Container untuk Gambar dan Nama */
+
+.main{
+    padding: 30px;
+}
+
+.container {
+    display:flex;
+}
+.box {
+    flex-grow: 1;
+}
+#box_gambar {
+    text-align: right;
+    padding-right: 1%;
+}
+
+#box_nama {
+    text-align: left;
+    padding-left: 1%;
+}
+
+#box_developer {
+    padding-right: 1%;
+    margin-top: 0px;
+    margin-left: 15%;
+}
+
+#box_language {
+    padding-left: 1%;
+    margin-top: 0px;
+    margin-right: 15%;
+}
+
+.container_education {
+    display:flex;
+}
+
+#box_degree, #box_stpm, #box_spm {
+    flex-basis: 30%;
+    padding-left: 2%;
+    padding-right: 2%;
+    text-align: center;
+}
+
+#box_projects {
+    flex-basis: 50%;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+.GambarKA {
+    width: 200px;
+    height: 200px;
+    border-radius: 40%;
+    object-fit: cover ;
+}
+
+#nama_ka {
+    color: azure;
+    font-size: 48px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 0.75em;
+}
+
 .about_me {
     color: cornsilk;
+    font-size:larger;
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    margin-top: 3px;
-    margin-bottom: 3px;
+    margin: 10px 20px;
 }
 
 .contact_me p {
@@ -86,15 +110,84 @@ a:hover {
 
 .contact_type {
     color:azure;
+    font-size: 18px;
     text-align: right;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    width: 45%;
+    width: 49%;
     padding-right: 1%;
 }
 
 .contact_info {
+    color:cornsilk;
+    font-size: 18px;
     text-align: left;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    width: 45%;
+    width: 49%;
     line-height: 1em;
+}
+
+
+
+hr {
+    height: 2px;
+    background-color: white;
+    border-color: white;
+    margin: 25px;
+}
+
+.page_title {
+    color: azure;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+.pengalaman_kerja {
+    color:bisque;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: justify;
+    margin: 20px 40px;
+    padding: 10px;
+}
+
+.position {
+    text-transform: uppercase;
+}
+
+/* summary {
+    font-weight: bold;
+} */
+
+details[open] {
+    color:darkslategray;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: justify;
+    background-color: cornsilk;
+    border-radius: 20px;
+    border-style:outset;
+    padding: 10px;
+
+}
+
+details[open] summary {
+    border-bottom: 2px dashed grey;
+}
+
+.skills_category, .study, .client_name, .website {
+    color: azure;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+.skills_list, .institution, .grade, .info {
+    color:bisque;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: justify;
+}
+
+footer {
+    margin-top: 35px;
+    color:bisque;
+    text-align: center;
+    font-size: xx-small;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
