@@ -1,0 +1,60 @@
+body {
+    background-color:rgb(23, 16, 56)
+}
+
+.text1 {
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
+    font-size: 96px;
+    font-style: normal;
+    position: absolute;
+    display:flex;
+    align-items:center;
+    top: 150px;
+    left: 250px;
+}
+
+#khairul_anwar {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    font-size: 90px;
+    font-weight: 400;
+    text-align: right;
+    position: absolute;
+    top: 400px;
+    left: 150px;
+}
+
+.text3 {
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
+    font-size: 40px;
+    font-weight: 200;
+    position: absolute;
+    top: 700px;
+    left: 50px;
+}
+
+.text4 {
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
+    font-size: 40px;
+    font-weight: 200;
+    position: absolute;
+    top: 700px;
+    left: 700px;
+}
+
+.boxA_1 {
+    box-sizing: border-box;
+    background: white;
+    border: 10px solid gold;
+    width: 30px;
+    height: 30px;    
+    padding: 20px;
+    margin: 0px;
+    position: absolute;
+    display: flex;
+    top: 100px;
+    left: 100px;
+}
