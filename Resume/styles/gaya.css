@@ -1,7 +1,7 @@
 /* BODY AND NAV LINK, HOVER ELEMENT */
 
 body {
-    background-color:darkolivegreen
+    background-color:#556b2f
 }
 
 nav {
@@ -19,9 +19,10 @@ a:any-link {
 a:hover {
     color: black;
     font-weight:bold;
-    background-color: cornsilk;
-    border: 3px solid azure;
+    background-color: wheat;
+    border: 3px solid paleturquoise;
     border-radius: 5px;
+    text-decoration: none;
     cursor: pointer;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -86,7 +87,7 @@ ul.nobullets {
 }
 
 .fa-brands, .fa-solid {
-    color:azure
+    color:mediumturquoise
 }
 
 hr {
@@ -97,7 +98,7 @@ hr {
 }
 
 .page_title {
-    color:mintcream;
+    color:azure;
     font-size:x-large;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
@@ -162,15 +163,15 @@ hr {
 /* PROFESSIONAL EXPERIENCE */
 
 .pengalaman_kerja {
-    color:cornsilk;
+    color:wheat;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: justify;
-    margin: 2px 40px;
+    margin: 2px 25%;
     padding: 10px;
 }
 
 .position {
-    color:honeydew;
+    color:paleturquoise;
 }
 
 /* summary {
@@ -178,10 +179,10 @@ hr {
 } */
 
 details[open] {
-    color:darkslategray;
+    color: wheat;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: justify;
-    background-color:tan;
+    background-color:#486a55;
     border-radius: 20px;
     border-style:outset;
     padding: 10px;
@@ -204,12 +205,13 @@ details[open] summary {
 .lang_name {
     color:azure;
     text-align: right;
+    font-weight: bold;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     padding-right: 1%;
 }
 
 .lang_level {
-    color:cornsilk;
+    color:wheat;
     text-align: left;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     padding-left: 1%;
@@ -219,25 +221,34 @@ details[open] summary {
 /* EDUCATION & PROJECT */
 
 .skills_category, .study, .client_name, .website, .info {
-    color: azure;
+    color: paleturquoise;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
 }
 
 .dev_skills_list, .institution, .grade, .info {
-    color:cornsilk;
+    color:wheat;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
 }
 
+.dev_skills_list {
+    font-weight: bold;
+}
+
+.web_images {
+    border: 3px solid gainsboro;
+    border-radius: 10px;
+}
 
 /* FOOTER */
 
 footer {
     margin-top: 35px;
-    color:bisque;
+    color:wheat;
     text-align: center;
     font-size: xx-small;
+    font-style: italic;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
