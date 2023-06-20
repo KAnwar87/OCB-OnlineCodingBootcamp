@@ -1,60 +1,200 @@
 body {
-    background-color:rgb(23, 16, 56)
+    background-color:black
 }
 
-.text1 {
-    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    color: white;
-    font-size: 96px;
-    font-style: normal;
+.background {
+    background-color:rgb(23, 16, 56);
+    width: 1200px;
+    height: 720px;    
+    margin: 0px;
     position: absolute;
-    display:flex;
-    align-items:center;
-    top: 150px;
-    left: 250px;
+    z-index: -3;
+    overflow: hidden;
 }
 
-#khairul_anwar {
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color: white;
-    font-size: 90px;
-    font-weight: 400;
-    text-align: right;
-    position: absolute;
-    top: 400px;
-    left: 150px;
-}
-
-.text3 {
-    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    color: white;
-    font-size: 40px;
-    font-weight: 200;
-    position: absolute;
-    top: 700px;
-    left: 50px;
-}
-
-.text4 {
-    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    color: white;
-    font-size: 40px;
-    font-weight: 200;
-    position: absolute;
-    top: 700px;
-    left: 700px;
-}
-
-.boxA_1 {
-    box-sizing: border-box;
+.white_box {
+    box-sizing:border-box;
     background: white;
-    border: 10px solid gold;
     width: 30px;
     height: 30px;    
-    padding: 20px;
     margin: 0px;
     position: absolute;
     display: flex;
+    top: 50px;
+    left: 50px;
+}
+
+#r_letter {
+    box-sizing:content-box;
+    background: #E82C4F;
+    width: 60px;
+    height: 60px;    
+    margin: 0px;
+    padding: 0px;
+    position: absolute;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    top: 80px;
+    left: 80px;
+    color: white;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 40px;
+    font-weight:500;
+}
+
+#warmups {
+    font-family: 'Bebas Neue', sans-serif;
+    color: white;
+    font-size: 80px;
+    font-weight: 400;
+    position:absolute;
+    display:flex;
+    margin: 0%;
+    padding: 0%;
+    top: 50px;
+    left: 200px;
+}
+
+
+#title {
+    font-family: 'Bebas Neue', sans-serif;
+    color: white;
+    font-size: 96px;
+    font-weight: 400;
+    position:absolute;
+    display:block;
+    width: 450px;
+    margin: 0%;
+    line-height: 100%;
+    padding: 0%;
+    top: 220px;
+    left: 50px;
+}
+
+.text2 {
+    font-family: 'Bebas Neue', sans-serif;
+    color: white;
+    font-size: 30px;
+    position:absolute;
+    display:flex;
+    margin: 0%;
+    padding: 0%;
+    top: 500px;
+    left: 50px;
+    align-content: center;
+}
+
+.text3 {
+    font-family: 'Bebas Neue', sans-serif;
+    color: white;
+    font-size: 30px;
+    position: absolute;
+    display: flex;
+    margin: 0%;
+    padding: 0%;
+    top: 500px;
+    left: 320px;
+}
+
+.fa-solid {
+    color: #E82C4F;
+}
+
+.box_a {
+    box-sizing:border-box;
+    width: 60px;
+    height: 60px;
+    border: 15px solid white;    
+    margin: 0px;
+    padding: 0%;
+    position: absolute;
+    display: flex;
+    top: 310px;
+    left: 810px;
+}
+
+.box_b {
+    box-sizing:border-box;
+    width: 240px;
+    height: 240px;
+    border: 40px solid #E82C4F;    
+    margin: 0px;
+    padding: 0%;
+    position: absolute;
+    display: flex;
+    top: 220px;
+    left: 720px;
+}
+
+.box_c {
+    box-sizing:border-box;
+    width: 500px;
+    height: 600px;
+    border: 60px solid white;    
+    margin: 0px;
+    padding: 0%;
+    position: absolute;
+    display: flex;
     top: 100px;
-    left: 100px;
+    left: 590px;
+}
+
+.square {
+    box-sizing:border-box;
+    width: 80px;
+    height: 80px;
+    border: 20px solid #3256A1;    
+    margin: 0px;
+    padding: 0%;
+    position: absolute;
+    display: flex;
+    top: 510px;
+    left: 720px;
+}
+
+.circle {
+    box-sizing:border-box;
+    width: 80px;
+    height: 80px;
+    border: 20px solid white;
+    border-radius: 50%;    
+    margin: 0px;
+    padding: 0%;
+    position: absolute;
+    display: flex;
+    top: 510px;
+    left: 880px;
+}
+
+.kotak_a {
+    box-sizing:border-box;
+    width: 400px;
+    height: 600px;
+    border: 40px solid white;    
+    margin: 0px;
+    padding: 0%;
+    position: absolute;
+    display: flex;
+    top: 310px;
+    left: 470px;
+    opacity: 0.3;
+    z-index: -1;
+    overflow: hidden;
+}
+
+.kotak_b {
+    box-sizing:border-box;
+    width: 550px;
+    height: 650px;
+    border: 40px solid white;    
+    margin: 0px;
+    padding: 0%;
+    position: absolute;
+    display: flex;
+    top: -280px;
+    left: 810px;
+    opacity: 0.5;
+    z-index: -2;
+    overflow: hidden;
 }
