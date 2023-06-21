@@ -1,5 +1,6 @@
 body {
-    background-color:black
+    background-color:black;
+    box-sizing:border-box;
 }
 
 .background {
@@ -12,35 +13,69 @@ body {
     overflow: hidden;
 }
 
-.white_box {
+.kotak_a {
+    /* box-sizing:border-box; */
+    width: 400px;
+    height: 600px;
+    /* border: 40px solid white;   */
+    outline: 60px solid white;            
+    outline-offset: -60px;  
+    margin: 0px;
+    padding: 0%;
+    position: absolute;
+    display: block;
+    top: 290px;
+    left: 470px;
+    opacity: 0.2;
+    z-index: -1;
+    overflow: hidden;
+}
+
+.kotak_b {
     box-sizing:border-box;
+    width: 550px;
+    height: 650px;
+    /* border: 40px solid white;  */
+    box-shadow: inset 0px 0px 0px 60px white;    
+    margin: 0px;
+    padding: 0%;
+    position: absolute;
+    display: flex;
+    top: -280px;
+    left: 790px;
+    opacity: 0.4;
+    z-index: -4;
+    overflow: hidden;
+}
+
+.white_box {
     background: white;
     width: 30px;
     height: 30px;    
     margin: 0px;
     position: absolute;
-    display: flex;
+    display:block;
     top: 50px;
     left: 50px;
 }
 
 #r_letter {
-    box-sizing:content-box;
     background: #E82C4F;
+    position: relative;
+    display:flex;
     width: 60px;
     height: 60px;    
     margin: 0px;
     padding: 0px;
-    position: absolute;
-    display:flex;
     justify-content: center;
     align-items: center;
-    top: 80px;
-    left: 80px;
     color: white;
     font-family: 'Bebas Neue', sans-serif;
     font-size: 40px;
     font-weight:500;
+    top: 30px;
+    left: 30px;
+    
 }
 
 #warmups {
@@ -48,12 +83,12 @@ body {
     color: white;
     font-size: 80px;
     font-weight: 400;
-    position:absolute;
+    position:relative;
     display:flex;
     margin: 0%;
     padding: 0%;
-    top: 50px;
-    left: 200px;
+    top: -50px;
+    left: 120px;
 }
 
 
@@ -76,12 +111,12 @@ body {
     font-family: 'Bebas Neue', sans-serif;
     color: white;
     font-size: 30px;
-    position:absolute;
-    display:flex;
+    position:relative;
+    display:inline-block;
     margin: 0%;
     padding: 0%;
-    top: 500px;
-    left: 50px;
+    top: -50px;
+    left: 0px;
     align-content: center;
 }
 
@@ -89,12 +124,13 @@ body {
     font-family: 'Bebas Neue', sans-serif;
     color: white;
     font-size: 30px;
-    position: absolute;
-    display: flex;
+    position: relative;
+    display:inline-block;
     margin: 0%;
     padding: 0%;
-    top: 500px;
-    left: 320px;
+    top: -50px;
+    left: 120px;
+    align-content: center;
 }
 
 .fa-solid {
@@ -102,99 +138,72 @@ body {
 }
 
 .box_a {
-    box-sizing:border-box;
-    width: 60px;
-    height: 60px;
-    border: 15px solid white;    
+    width: 80px;
+    height: 80px;
+    /* border: 15px solid white;   */
+    outline: 20px solid white;            
+    outline-offset: -20px;
     margin: 0px;
     padding: 0%;
     position: absolute;
-    display: flex;
-    top: 310px;
-    left: 810px;
+    display:block;
+    top: 300px;
+    left: 800px;
 }
 
 .box_b {
-    box-sizing:border-box;
     width: 240px;
     height: 240px;
-    border: 40px solid #E82C4F;    
+    /* border: 40px solid #E82C4F; */
+    outline: 40px solid #E82C4F;            
+    outline-offset: -40px;
     margin: 0px;
     padding: 0%;
-    position: absolute;
-    display: flex;
-    top: 220px;
-    left: 720px;
+    position: relative;
+    display:block;
+    top: -80px;
+    left: -80px;
 }
 
 .box_c {
     box-sizing:border-box;
     width: 500px;
     height: 600px;
-    border: 60px solid white;    
+    /* border: 60px solid white;     */
+    box-shadow: inset 0px 0px 0px 60px white; 
     margin: 0px;
     padding: 0%;
-    position: absolute;
-    display: flex;
-    top: 100px;
-    left: 590px;
+    position: relative;
+    display: block;
+    top: -440px;
+    left: -210px;
 }
 
 .square {
-    box-sizing:border-box;
     width: 80px;
     height: 80px;
-    border: 20px solid #3256A1;    
+    /* border: 20px solid #3256A1;     */
+    outline: 20px solid #3256A1;
+    outline-offset: -20px;
     margin: 0px;
     padding: 0%;
-    position: absolute;
-    display: flex;
-    top: 510px;
-    left: 720px;
+    position: relative;
+    display: block;
+    top: 290px;
+    left: 0px;
 }
 
 .circle {
-    box-sizing:border-box;
     width: 80px;
     height: 80px;
-    border: 20px solid white;
+    /* border: 20px solid white; */
+    box-shadow: inset 0px 0px 0px 20px white; 
     border-radius: 50%;    
     margin: 0px;
     padding: 0%;
-    position: absolute;
-    display: flex;
-    top: 510px;
-    left: 880px;
+    position: relative;
+    display: block;
+    top: 0px;
+    left: 160px;
 }
 
-.kotak_a {
-    box-sizing:border-box;
-    width: 400px;
-    height: 600px;
-    border: 40px solid white;    
-    margin: 0px;
-    padding: 0%;
-    position: absolute;
-    display: flex;
-    top: 300px;
-    left: 460px;
-    opacity: 0.3;
-    z-index: -1;
-    overflow: hidden;
-}
-
-.kotak_b {
-    box-sizing:border-box;
-    width: 550px;
-    height: 650px;
-    border: 40px solid white;    
-    margin: 0px;
-    padding: 0%;
-    position: absolute;
-    display: flex;
-    top: -290px;
-    left: 800px;
-    opacity: 0.5;
-    z-index: -2;
-    overflow: hidden;
-}
