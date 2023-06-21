@@ -176,8 +176,8 @@ body {
     padding: 0%;
     position: absolute;
     display: flex;
-    top: 310px;
-    left: 470px;
+    top: 300px;
+    left: 460px;
     opacity: 0.3;
     z-index: -1;
     overflow: hidden;
@@ -192,8 +192,8 @@ body {
     padding: 0%;
     position: absolute;
     display: flex;
-    top: -280px;
-    left: 810px;
+    top: -290px;
+    left: 800px;
     opacity: 0.5;
     z-index: -2;
     overflow: hidden;
