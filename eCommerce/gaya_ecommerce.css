@@ -1,0 +1,30 @@
+.main_nav {
+display: flex;
+width: 1200px;
+height: 96px;
+padding: 20px 24px;
+justify-content: space-between;
+align-items: center;
+flex-shrink: 0;
+
+border-radius: 20px;
+background: var(--black-bg, #2A2C2E);
+/* background: #2A2C2E; */
+backdrop-filter: blur(46.5px);
+}
+
+.site_logo {
+display: flex;
+width: 160px;
+padding: 5px 0.25px 0px 0px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+flex-shrink: 0;
+}
+
+.link_button {
+display: flex;
+align-items: center;
+gap: 40px;
+}
