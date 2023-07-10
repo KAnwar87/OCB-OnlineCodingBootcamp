@@ -20,3 +20,5 @@ function nameValue(nama){
 }
 
 nameValue(`Khairul Anwar`)
+
+
