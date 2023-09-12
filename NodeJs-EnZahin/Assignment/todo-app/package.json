@@ -1,0 +1,14 @@
+{
+  "name": "todo-app-assignment",
+  "version": "1.0.0",
+  "description": "OCB 2023 : NodeJs Weekly Assessment 1",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "KA",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
