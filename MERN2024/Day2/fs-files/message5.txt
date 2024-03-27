@@ -1,0 +1,3 @@
+Hello Node.js 5
+
+Konnichiwa Khairul-san
